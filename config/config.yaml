@@ -5,18 +5,15 @@ email_conf:
   host: "smtp.qq.com"
 
   resource:
-    - "个人简历_甘含颖.pdf"
-    - "image/default/我的照片.jpg;image1"
-    - "image/default/远程登陆12306.jpg"
-    - "image/default/人脸识别.jpg"
+    - "xxx.pdf"
 
-  header: "中北大学_测试开发岗_甘含颖"
+  header: ""
 
   template: "config/mail.html"
 
 damatu:
-  username: "nfy__"
-  password: "346999452"
+  username: ""
+  password: ""
 
 set:
   station_dates:
@@ -37,13 +34,11 @@ set:
   is_more_ticket: True
 
   ticke_peoples:
-    - "甘含颖"
-    - "宋文泰"
-    - "徐少伟"
+    - "XXX"
 
   12306count:
-    username: "LT921002191"
-    password: "LT921002191LT"
+    username: ""
+    password: ""
 
   select_refresh_interval: 0.1
   expect_refresh_interval: 0.3
